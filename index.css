@@ -54,6 +54,9 @@ p {
     margin-bottom: 16px;
     background-color: #FFFFFF;
 }
+.content-box.email {
+    padding: 0 10px 10px 10px;
+}
 
 #header {
     max-width: 200px;
@@ -92,4 +95,32 @@ p {
 .links-container > a > svg {
     width: 34px;
     height: 34px;
+}
+
+.email-control {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#email-box {
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 1px solid #353535;
+    height: 30px;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+.email-hide {
+    opacity: 0;
+}
+.email-show {
+    opacity: 1;
+}
+#show-email-button {
+    margin-top: 10px;
+    height: 30px;
+    background: #d9d9d9;
+    border: 1px solid #353535;
+    font-family: "Crimson Text", serif;
+    font-size: 16px;
 }
